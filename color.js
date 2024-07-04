@@ -1,0 +1,7 @@
+COLOR_PRIMARIO="#0a0a0a";
+COLOR_SECUNDARIO="#fff";
+
+export default{
+    COLOR_PRIMARIO,
+    COLOR_SECUNDARIO
+}

@@ -1,0 +1,21 @@
+export const titulos = [
+    { "title": "IA Intro" },
+    { "title": "Web CSS" },
+    { "title": "Diseño" },
+    { "title": "Bases" },
+    { "title": "Marketing" },
+    { "title": "React" },
+    { "title": "Foto" },
+    { "title": "Python" },
+    { "title": "Ágil" },
+    { "title": "Datos" },
+    { "title": "Psico" },
+    { "title": "Econ" },
+    { "title": "Salud" },
+    { "title": "Creat" },
+    { "title": "Arte" },
+    { "title": "Comun" },
+    { "title": "Astro" },
+    { "title": "Músic" },
+    { "title": "Conflict" }
+];
