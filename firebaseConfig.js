@@ -6,13 +6,13 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_NATIVE_API_KEY,
-  authDomain: process.env.REACT_NATIVE_AUTH_DOMAIN,
-  projectId: process.env.REACT_NATIVE_PROJECT_ID,
-  storageBucket: process.env.REACT_NATIVE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_NATIVE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_NATIVE_APP_ID,
-  measurementId: process.env.REACT_NATIVE_MEASUREMENT_ID
+  apiKey: "AIzaSyDlFeKxKQmW7eTyJNtrqCMTJ_pcluBGVhE",
+  authDomain: "learningflex-60ce0.firebaseapp.com",
+  projectId: "learningflex-60ce0",
+  storageBucket: "learningflex-60ce0.appspot.com",
+  messagingSenderId: "365966381185",
+  appId: "1:365966381185:web:22560b817ac8afbb027d80",
+  measurementId: "G-GTQ6HM15JG"
 };
 
 // Initialize Firebase

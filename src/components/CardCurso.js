@@ -7,11 +7,7 @@ export default function CardCurso() {
             {courses.map((course, index) => (
                 <View key={index} style={styles.courseCard}>
                     <Image source={course.imageUrl} style={styles.image} />
-                    <View style={styles.content}>
-                        <Text style={styles.title}>{course.title}</Text>
-                        <Text style={styles.description}>{course.description}</Text>
-                        <Text style={styles.level}>{course.level}</Text>
-                    </View>
+                   
                 </View>
             ))}
         </ScrollView>

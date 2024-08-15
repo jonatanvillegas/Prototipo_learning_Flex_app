@@ -59,7 +59,8 @@ export default function Login() {
                 />
             </View>
             <View style={styles.Bg}>
-                <Text style={styles.loginText}>Login</Text>
+                <Text style={styles.loginText}>Ingresa</Text>
+            
                 <TextInput
                     style={styles.input}
                     placeholder="Email"
@@ -92,7 +93,7 @@ export default function Login() {
 const styles = StyleSheet.create({
     container: {
         flex: 3,
-        backgroundColor: '#fff',
+        backgroundColor: color.COLOR_WHITE,
         alignItems: 'center',
         justifyContent: 'flex-end',
     },
@@ -111,44 +112,43 @@ const styles = StyleSheet.create({
     restante: {
         flex: 1,
         width: '100%',
-        backgroundColor: color.COLOR_SECUNDARIO,
+        backgroundColor: color.COLOR_WHITE,
         justifyContent: 'center',
         alignItems: 'center',
     },
     loginText: {
         fontSize: 24,
-        color: color.COLOR_SECUNDARIO,
+        color: color.COLOR_WHITE,
         marginBottom: 20,
         fontWeight: "bold"
     },
     input: {
-        width: '100%',
+        width: '90%',
         height: 40,
-        backgroundColor: color.COLOR_SECUNDARIO,
+        backgroundColor: color.COLOR_WHITE,
         borderRadius: 20,
         paddingHorizontal: 10,
         marginVertical: 10,
         color: "#000",
     },
     button: {
-        backgroundColor: color.COLOR_SECUNDARIO,
+        backgroundColor: color.COLOR_WHITE,
         borderRadius: 20,
-        width: '100%',
+        width: '60%',
         padding: 10,
         marginTop: 40,
     },
     buttonText: {
-        color: "#000",
+        color:color.COLOR_SECUNDARIO,
         fontSize: 16,
         fontWeight: "bold",
         textAlign: "center",
-        marginLeft: 10,
     },
     googleButton: {
         flexDirection: "row",
         backgroundColor: '#DB4437',
         borderRadius: 20,
-        width: '100%',
+        width: '60%',
         paddingVertical: 12,
         marginVertical: 10,
         marginTop: 30,

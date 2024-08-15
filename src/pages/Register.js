@@ -106,7 +106,7 @@ export default function Register() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: color.COLOR_WHITE,
         alignItems: 'center',
         justifyContent: 'flex-end',
     },
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     restante: {
         flex: 1,
         width: '100%',
-        backgroundColor: color.COLOR_SECUNDARIO,
+        backgroundColor: color.COLOR_WHITE,
         justifyContent: 'center',
         alignItems: 'center',
     },
